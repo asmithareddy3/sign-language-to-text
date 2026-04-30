@@ -1,26 +1,28 @@
-# Sign Language to Text
+# Sign Language to Text Converter
 
-This project converts hand gestures into text using computer vision
-and machine learning techniques.
+## 📌 Overview
+A real-time sign language recognition system that converts hand gestures into readable text using computer vision techniques.
 
-## Features
-- Real-time sign language recognition
-- Webcam-based gesture capture
-- Hand landmark extraction using MediaPipe
-- SVM-based classification
+## 🚀 Features
+- Real-time hand gesture detection using webcam
+- Converts gestures into text output
+- Built using OpenCV and Python
 
-## Tech Stack
-- Python
-- OpenCV
-- MediaPipe
-- NumPy
-- Scikit-learn
+## 🧠 How It Works
+1. Capture video using webcam  
+2. Detect hand using OpenCV  
+3. Extract gesture features  
+4. Convert gesture into text output  
 
-## Dataset
-The dataset is created locally using webcam input.
-Due to size and privacy concerns, the dataset is not uploaded.
+## 🛠 Tech Stack
+- Python  
+- OpenCV  
 
-## How to Run
+## 📷 Screenshots
+(Add your output screenshots here)
+
+## ⚙️ Run Locally
 ```bash
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/asmithareddy3/sign-language-to-text
+cd sign-language-to-text
+python app.py
