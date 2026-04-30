@@ -18,9 +18,6 @@ A real-time sign language recognition system that converts hand gestures into re
 - Python  
 - OpenCV  
 
-## 📷 Screenshots
-(Add your output screenshots here)
-
 ## ⚙️ Run Locally
 ```bash
 git clone https://github.com/asmithareddy3/sign-language-to-text
